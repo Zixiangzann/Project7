@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import {setMenuStatus , getMenuStatus} from './slice'
+import {setMenuStatus , getMenuStatus} from '../features/menu/menuSlice'
 import styled from 'styled-components'
 import CloseIcon from '@mui/icons-material/Close';
 export default function Header(){

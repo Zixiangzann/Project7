@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade';
 import { useSelector, useDispatch } from 'react-redux';
-import {setMenuStatus , getMenuStatus} from './slice'
+import {setMenuStatus , getMenuStatus} from '../features/menu/menuSlice'
 
 
 export default function Section(props) {
